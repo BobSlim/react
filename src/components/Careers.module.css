@@ -1,33 +1,33 @@
 .card {
-  padding: 2em;
+	padding: 2em;
 }
 
 .read-the-docs {
-  color: #888;
+	color: #888;
 }
 
 .hiddenEmpty:empty {
-  display: none;
+	display: none;
 }
 
 table {
-  border-collapse: collapse;
+	border-collapse: collapse;
 }
 
 td,
 th {
-  border: 1px solid white;
-  padding: 0rem 1rem;
+	border: 1px solid white;
+	padding: 0rem 1rem;
 }
 
 section {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
 
 .label {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
 }
