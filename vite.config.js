@@ -10,6 +10,7 @@ export default defineConfig({
 		environment: "jsdom",
 		setupFiles: "./src/tests/setup.js",
 	},
+	base: "/shop-react",
 	resolve: {
 		alias: {
 			"@": path.resolve(__dirname, "./src/"),
