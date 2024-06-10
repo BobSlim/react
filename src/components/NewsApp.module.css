@@ -1,0 +1,25 @@
+.news {
+	main {
+		display: grid;
+		grid-template-columns: repeat(auto-fill, minmax(min(100%, 35ch), 1fr));
+		gap: 2rem;
+		width: 100%;
+	}
+
+	header {
+		padding: 1rem;
+		top: 0rem;
+		position: sticky;
+		width: 100%;
+		background-color: #242424;
+	}
+
+	form {
+		display: flex;
+		width: 100%;
+	}
+
+	input[type="text"] {
+		flex: 1;
+	}
+}

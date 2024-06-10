@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import { SearchBarForm } from "./NewsSearchBarForm";
 import { Article } from "./NewsArticle";
+import styles from "./NewsApp.module.css"
 const API_KEY = "ab3b3bf949324614847ba7db43e668d7";
 
 const getNews = async ({ search: query, from, to }) => {
@@ -40,7 +41,7 @@ export const App = () => {
 	}, [query]);
 
 	return (
-		<>
+		<div className={styles.news}>
 			<header>
 				{loading ? null : (
 					<p>Found {articles.totalResults} articles!</p>
@@ -58,7 +59,7 @@ export const App = () => {
 							></Article>
 						))}
 			</main>
-		</>
+		</div>
 	);
 };
 

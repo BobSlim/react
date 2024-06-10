@@ -8,10 +8,11 @@ import { Careers } from "./components/Careers";
 import { Shop } from "./components/Shop";
 import { Home } from "./components/Home";
 import { Checkout } from "./components/Checkout";
+import { App as NewsApp } from "./components/NewsApp"
 
 const paths = createBrowserRouter([
 	{
-		path: "/",
+		path: "/shop-react",
 		element: <App />,
 		children: [
 			{
@@ -34,6 +35,10 @@ const paths = createBrowserRouter([
 				path: "cart",
 				element: <Checkout />,
 			},
+			{
+				path: "news",
+				element: <NewsApp />,
+			}
 		],
 	},
 ]);

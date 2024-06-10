@@ -1,19 +1,19 @@
-article {
+.article {
 	border-radius: 8px;
 	border: 1px solid transparent;
 	padding: 8px;
 }
 
-article:hover {
+.article:hover {
 	border-color: #646cff;
 }
 
-article:focus,
-article:focus-visible {
+.article:focus,
+.article:focus-visible {
 	outline: 4px auto -webkit-focus-ring-color;
 }
 
-article img {
+.article img {
 	width: 100%;
 	object-fit: cover;
 }

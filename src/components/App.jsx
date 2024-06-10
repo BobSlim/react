@@ -6,17 +6,20 @@ import { getData } from "./utils";
 
 const NavBar = ({ children }) => (
 	<nav>
-		<Link to="/">
+		<Link to="./">
 			<button>Home</button>
 		</Link>
-		<Link to="/careers">
+		<Link to="./careers">
 			<button>Careers</button>
 		</Link>
-		<Link to="/game">
+		<Link to="./game">
 			<button>Game</button>
 		</Link>
-		<Link to="/shop">
+		<Link to="./shop">
 			<button>Shop</button>
+		</Link>
+		<Link to="./news">
+			<button>News</button>
 		</Link>
 		{children}
 	</nav>
