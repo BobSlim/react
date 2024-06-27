@@ -12,7 +12,7 @@ import { App as NewsApp } from "./components/NewsApp"
 
 const paths = createBrowserRouter([
 	{
-		path: "/shop-react",
+		path: "/react",
 		element: <App />,
 		children: [
 			{
