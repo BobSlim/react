@@ -26,7 +26,7 @@ const NavBar = ({ children }) => (
 );
 
 const CartButton = ({ items = 0 }) => (
-	<Link to="/cart">
+	<Link to="./cart">
 		<button>
 			<Icon icon="mdi:cart"></Icon>
 			{items}
